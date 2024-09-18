@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+}
+
+/*PAGE 01*/
+#page-01 {
+    background-image: url(img/banner.01.png);
+    background-size: contain;
+    height: 100vh;
+    border-bottom: 2px solid rgba(0, 119, 255, 0.623);
+}
+
+#article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 100%;
+}
+
+#article #logo-01 {
+    width: 350px;
+    padding: 25px 10px;
+    background-color: rgba(116, 116, 116, 0.075);
+    border-radius: 50%;
+}
+
+#article h1 {
+    color: rgb(0, 119, 255);
+    margin: 15px 0px;
+    font-size: 45px;
+}
+
+#article p {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+#article #buton {
+    margin-top: 15px;
+    color: white;
+    border: 1px solid rgba(0, 119, 255, 0.623);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#article #buton:hover {
+    color: rgb(0, 119, 255);
+    background-color: rgb(255, 255, 255);
+} 
+
+
+/*PAGE 02*/
+#page-02 {
+    display: flex;
+    background-color: black;
+    height: 80vh;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 119, 255, 0.623);
+}
+
+#page-02 #article-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#article-02 h1 {
+    color: rgba(0, 119, 255, 0.623);
+    font-size: 45px;
+}
+
+#article-02 p {
+    color: rgb(255, 255, 255);
+}
+
+#article-02 #modulos {
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#article-02 #modulos p {
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 35px;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 20px 250px;
+    background-color: rgba(94, 94, 94, 0.842);
+    font-size: 18px;
+}
+
+
+
+/*page 03*/
+
+#page-03 {
+    height: 50vh;
+    background-image: url(img/BannerWoman.01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 119, 255, 0.623);
+}
+
+#page-03 p {
+    color: white;
+    font-size: 50px;
+    margin: 0px 100px;
+}
+
+/*page 04*/
+
+#page-04 {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(0, 119, 255, 0.623);
+}
+
+#page-04 #article-04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-04 #article-04 h1 {
+    color: rgba(0, 119, 255, 0.623);
+    font-size: 30px;
+}
+
+#page-04 #article-04 img {
+    width: 750px;
+    margin-bottom: 30px;
+}
+
+#page-04 #article-04 p {
+    color: white;
+    font-size: 15px;
+}
+
+footer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p {
+    color: white;
+    margin: 10px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 119, 255);
+}
+
